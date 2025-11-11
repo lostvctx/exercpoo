@@ -1,0 +1,200 @@
+body {
+    background: linear-gradient(135deg, #141E30, #243B55);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f1c40f;
+}
+
+.form-container {
+    background: rgba(0,0,0,0.3);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    background: #27ae60;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2ecc71;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th {
+    background-color: #f1c40f;
+    color: #222;
+    padding: 12px;
+    border-radius: 8px 8px 0 0;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.disp {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.indisp {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-alugar {
+    background: #3498db;
+}
+
+.btn-alugar:hover {
+    background: #2980b9;
+}
+
+.btn-devolver {
+    background: #e74c3c;
+}
+
+.btn-devolver:hover {
+    background: #c0392b;
+}
+
+.cliente-info {
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.veiculo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 15px;
+    margin: 12px;
+    width: 240px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.veiculo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.veiculo-imagem {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+.veiculo-info {
+    text-align: center;
+}
+
+.veiculo-info h3 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #f1c40f;
+}
+
+.veiculo-info p {
+    margin: 3px 0;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-alugar, .btn-devolver {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s;
+  }
+  
+  .btn-alugar {
+    background-color: #28a745;
+  }
+  
+  .btn-alugar:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .btn-devolver {
+    background-color: #dc3545;
+  }
+  
+  .btn-devolver:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
